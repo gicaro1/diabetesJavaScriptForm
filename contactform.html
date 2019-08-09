@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FMA Guiovanny Cardenas Rosales </title>
+    <link rel="stylesheet" type="text/css" href="diabetestool.css">
+    <script src="contactform.js"></script>
+</head>
+
+<body>
+<h1 id="page" >Zedland Health Authority contact form</h1>
+<form id="Form2">
+    <fieldset id="controls">
+
+        <div class="fristName">
+
+            <div class="question">
+                First Name:
+            </div>
+
+            <input id="firstName" type="text" size="40"><span id="firstNameValidationError" class="validationError"></span>
+            <span id="firstNameError" class="error"> * PLEASE INTRODUCE YOUR NAME .</span>
+
+            </div>
+
+        <div class="lastName">
+
+            <div class="question">
+                Last Name:
+            </div>
+
+            <input id="lastName" type="text" size="40" ><span id="lastNameValidationError" class="validationError"></span>
+            <span id="lastNameError" class="error">* PLEASE INTRODUCE YOUR SURNAME .</span>
+
+        </div>
+
+
+
+        <div class="title">
+
+            <div class="question">
+                Title:
+            </div>
+            <select id="title">
+                <option selected="selected" value="select a title">TITLE.</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Miss">Miss</option>
+                <option value="Master.">Master.</option>
+            </select><span id="titleError" class="error">* PLEASE SELECT TITLE .</span>
+        </div>
+
+
+        <div class="healthAutorityNumber">
+            <div class="question">
+                <span><img src="imageQuestionMark.png" id="questionMark" alt="Hint"></span> Health Authority  Number:
+            </div>
+
+            <input id="healthNumber" type="text" size="40"><span id="healthNumberValidationError" class="validationError"></span>
+            <span id="healthNumberError" class="error">* PLEASE INTRODUCE YOUR HEALTH AUTHORITY NUMBER . (e.g ZHA346783)</span>
+
+            <div class="adviseRiskMessage" id="informationSign"> * IF YOU DO NOT KNOW  YOUR ZHA NUMBER, PLEASE CONTACT YOUR GP </div>
+
+        </div>
+
+        <div class="email">
+            <div class="question">
+                Email:
+            </div>
+            <input id="email" type="text" size="40"><span id="emailValidationError" class="validationError"></span>
+            <span id="emailError" class="error">*  YOU MUST ENTER A VALID E-MAIL ADDRESS  .</span>
+        </div>
+
+
+        <div class="telephoneNumber">
+            <div class="question">
+                telephoneNumber:
+            </div>
+            <input id="telephoneNumber" type="text" size="40"><span id="telephoneNumberValidationError" class="validationError"></span>
+            <span id="telephoneNumberError" class="error">* PLEASE ENTER YOUR TELEPHONE NUMBER </span>
+        </div>
+
+        <div class="question">
+            <input type="submit" value="submit" class="submitContactButton " >
+        </div>
+
+    </fieldset>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+/*Guiovanny Cardenas Rosales
+FMA JavaScript 2017
+Contact Form Diabetes tool
+css file */
+html {
+    background: url(2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.body {
+
+
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+.error{
+
+
+    display: none;
+    color:saddlebrown;
+    padding-left: 3em;
+}
+
+.validationError{
+
+    color: saddlebrown;
+    padding-left: 3em;
+
+}
+
+#firstNameError,#lastNameError,#healthNumberError,#emailError,#telephoneNumberError{
+
+    display:none;
+}
+#page {
+    color: saddlebrown;
+    border-bottom-style: solid;
+    border-color: #a1a1a1;
+    padding-bottom: 15px;
+}
+
+#qmark{
+
+    padding-left: 0px;
+    padding-right: 5px;
+    size: 1px;
+
+}
+
+.adviseRiskMessage{
+
+    padding-left: 645px;
+
+    display: none;
+}
+
+
+h1 {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 44px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+
+}
+#titleError{
+
+    padding-left: 317px;
+
+
+}
+
+
+
+#controls {
+    width: 95%;
+    border: 2px solid #a1a1a1;
+    padding: 0 em;
+    align-self: center;
+    background-color: #9bb2ff;
+    margin-left:42px;
+    margin-bottom:32px;
+    border-radius: 25px;
+
+
+}
+
+#secondPanel {
+
+    width: 90%;
+    padding: 1em;
+    display: none;
+    background-color: #91ffa8;
+    margin-left:33px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: 2px solid #a1a1a1;
+
+}
+
+.question {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 2px;
+    padding-right: 80px;
+    font-size: 15px;
+    width: 180px;
+    font-weight: bold;
+}
+
+.answer {
+    display: inline-block;
+    padding-right: 50px;
+    text-align: right;
+    width: 160px;
+}
+
+
+#submit{
+    border : solid 1px #e6e6e6;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    font-size : 12px;
+    color : #000000;
+    padding : 1px 17px;
+    background : #ffffff;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(5%,#23aadb), color-stop(100%,#f6f6f6));
+
+}
+
+.submitContactButton  {
+    border : solid 1px #e6e6e6;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    font-size : 12px;
+    color : #000000;
+    padding : 1px 17px;
+    background : #ffffff;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(5%,#23aadb), color-stop(100%,#f6f6f6));
+
+
+
+}
